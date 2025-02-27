@@ -1,8 +1,9 @@
-export default function rootPage(){
+import LoginButton from "./components/LoginButton"
+export default function RootPage(){
   return (
-    <div>
-      <h1>Hello World</h1>
-      <p>Welcome to my website</p>
-    </div>
+    <>
+      <div>RootPage</div>
+      <LoginButton />
+    </>
   )
 }
