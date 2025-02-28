@@ -110,7 +110,7 @@ export default function LoginButton(){
 
       if (currentToken.access_token) {
         const userData = await getUserData();
-        console.log(userData)
+        setIsLoggedIn(true)
       } 
     }
     init()
